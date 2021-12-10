@@ -6,11 +6,14 @@
 tox -e build
 ```
 
-Or
+Or for local build:
 
 ```sh
 pip install -e .
+pipenv install -e .
 ```
+
+
 
 ### Push
 

@@ -2,20 +2,23 @@
 
 ### Build
 
+- Before building you need to define a git tag, that git tag will be used as version:
+
 ```sh
+git tag 1.0.0
 tox -e build
 ```
 
-Or for local build:
+- After that you can install also on local the same version:
 
 ```sh
 pip install -e .
 pipenv install -e .
 ```
 
+### Publish
 
-
-### Push
+- To publish the package run this:
 
 ```sh
 tox -e publish

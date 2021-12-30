@@ -1,5 +1,10 @@
 # Scraping Common Bot
 
+### Lint
+```sh
+pylint -f colorized src/scraping_common_bot
+```
+
 ### Build
 
 - Before building you need to define a git tag, that git tag will be used as version:

@@ -1,7 +1,7 @@
 import time
 from random import randint
 
-from common.scraping.loader import loader
+from ..loader import loader
 
 
 def function_call_delay(function, delay: int = 1, **kwargs):

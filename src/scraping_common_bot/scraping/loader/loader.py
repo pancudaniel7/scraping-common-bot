@@ -5,7 +5,7 @@ from selenium.webdriver.firefox.webdriver import WebDriver
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
-from common.scraping.collector import extractor
+from ..collector import extractor
 
 
 def get_page_source_until_all_tags(driver: WebDriver, tag: str, timeout: int = 10):

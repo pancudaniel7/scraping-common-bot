@@ -1,7 +1,7 @@
-from common.scraping.action import callback
 from selenium.webdriver.firefox.webdriver import WebDriver
 
-from common.scraping.loader import loader
+from ..action import callback
+from ..loader import loader
 
 
 def click_page_button(driver: WebDriver, selector: str):

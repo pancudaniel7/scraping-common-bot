@@ -7,7 +7,7 @@ def get_page_soup(session: Session, url: str):
     return BeautifulSoup(page.content, features="lxml")
 
 
-def get_soup_by_content(page_content: str):
+def get_page_soup(page_content: str):
     return BeautifulSoup(page_content, features="lxml")
 
 

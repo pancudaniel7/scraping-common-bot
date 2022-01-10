@@ -1,5 +1,9 @@
 # Scraping Common Bot
 
+### Description
+
+Scraping common bot python library is a project that contains selenium common functionality. The project can be used for scraping or automation testing functionalities.
+
 ### Lint
 ```sh
 pylint -f colorized src/scraping_common_bot
